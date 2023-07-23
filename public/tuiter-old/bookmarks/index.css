@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.wd-bookmarks {
+  margin: 12px;
+}
+
+.wd-tuit {
+  border: 1px solid lightgray;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.wd-tuit-content {
+  display: flex;
+  align-items: center;
+}
+
+.wd-tuit-title {
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.wd-tuit-text {
+  margin-bottom: 12px;
+}
+
+.wd-tuit-link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+}
+
+.wd-tuit-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.wd-tuit-text-container {
+  flex-grow: 1;
+}
+
+.wd-tuit-icons {
+  display: flex;
+}
+
+/* Styles specific to Twitter's all bookmarks page */
+.wd-bookmarks {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.wd-tuit {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.wd-tuit-content {
+  display: flex;
+}
+
+.wd-tuit-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.wd-tuit-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wd-tuit-text {
+  margin-bottom: 0;
+}
+
+.wd-tuit-link:hover {
+  background-color: #f5f8fa;
+}
+
+/* Additional styles for icons */
+.wd-back-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.wd-tuit-icons a {
+  margin-right: 10px;
+}
